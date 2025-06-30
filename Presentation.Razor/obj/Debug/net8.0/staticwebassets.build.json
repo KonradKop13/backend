@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "7jIcpTy69XmI5iWiWG2aZob6+HYXYkI/RCDaIHARF0w=",
+  "Source": "Presentation.Razor",
+  "BasePath": "_content/Presentation.Razor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Presentation.Razor\\wwwroot",
+      "Source": "Presentation.Razor",
+      "ContentRoot": "C:\\Users\\Asus\\OneDrive\\Pulpit\\ProjektAplikacjaBackend\\Presentation.Razor\\wwwroot\\",
+      "BasePath": "_content/Presentation.Razor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Asus\\OneDrive\\Pulpit\\ProjektAplikacjaBackend\\Presentation.Razor\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Presentation.Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\OneDrive\\Pulpit\\ProjektAplikacjaBackend\\Presentation.Razor\\wwwroot\\",
+      "BasePath": "_content/Presentation.Razor",
+      "RelativePath": "lib/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jqpcs9kqv6",
+      "Integrity": "Sy3N5jGRArkciuG89ep5Kgq+ZeEREhQK75uMIjyTn04=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap.min.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "lib/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\Pulpit\\ProjektAplikacjaBackend\\Presentation.Razor\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sy3N5jGRArkciuG89ep5Kgq+ZeEREhQK75uMIjyTn04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 11:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sy3N5jGRArkciuG89ep5Kgq+ZeEREhQK75uMIjyTn04="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/bootstrap.min.jqpcs9kqv6.css",
+      "AssetFile": "C:\\Users\\Asus\\OneDrive\\Pulpit\\ProjektAplikacjaBackend\\Presentation.Razor\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sy3N5jGRArkciuG89ep5Kgq+ZeEREhQK75uMIjyTn04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 11:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jqpcs9kqv6"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sy3N5jGRArkciuG89ep5Kgq+ZeEREhQK75uMIjyTn04="
+        }
+      ]
+    }
+  ]
+}

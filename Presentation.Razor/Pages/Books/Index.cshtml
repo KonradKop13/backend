@@ -1,0 +1,34 @@
+@page
+@model Presentation.Razor.Pages.Books.IndexModel
+@{
+    ViewData["Title"] = "Books";
+}
+<h1>Books</h1>
+@if (Model.ErrorMessage != null)
+{
+    <div class="alert alert-danger">@Model.ErrorMessage</div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var book in Model.Books)
+    {
+        <tr>
+            <td>@book.Id</td>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@book.Year</td>
+        </tr>
+    }
+    </tbody>
+</table>
+<div class="mb-3">
+    <a href="/Books/Create" class="btn btn-success">Add Book</a>
+</div>

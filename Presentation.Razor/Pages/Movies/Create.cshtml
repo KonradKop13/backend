@@ -1,0 +1,30 @@
+@page
+@model Presentation.Razor.Pages.Movies.CreateModel
+@{
+    ViewData["Title"] = "Add Movie";
+}
+<h1>Add Movie</h1>
+@if (Model.ErrorMessage != null)
+{
+    <div class="alert alert-danger">@Model.ErrorMessage</div>
+}
+<form method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="Movie.Title"></label>
+        <input asp-for="Movie.Title" class="form-control" />
+        <span asp-validation-for="Movie.Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Movie.Director"></label>
+        <input asp-for="Movie.Director" class="form-control" />
+        <span asp-validation-for="Movie.Director" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Movie.Year"></label>
+        <input asp-for="Movie.Year" class="form-control" />
+        <span asp-validation-for="Movie.Year" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>
